@@ -1,0 +1,129 @@
+body {
+  background: #eff1f5;
+  color: #4c4f69;
+  min-height: 300vh;
+  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari,
+    'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
+  padding: 1rem;
+}
+
+.blue {
+  background: #1e66f5;
+}
+
+.pink {
+  background: #ea76cb;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 6px;
+  padding: 4px;
+  border-radius: 3px;
+  color: #eff1f5;
+  font-weight: bold;
+}
+
+.bordered {
+  padding: 3px;
+  border: 1px solid #acb0be;
+  border-radius: 5px;
+}
+
+#position-demo {
+  display: inline-block;
+}
+
+#relative-box {
+  position: relative;
+  top: 30px;
+}
+
+#absolute-box {
+  position: absolute;
+  top: 5px;
+}
+
+#fixed-box {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.sticky-container {
+  height: 200px;
+}
+
+#sticky-box {
+  position: sticky;
+  top: 0;
+}
+
+#d-inline .inline-box {
+  display: inline;
+}
+
+#d-inline-block .inline-block-box {
+  display: inline-block;
+}
+
+#d-flex .flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#flex-container {
+  display: flex;
+  /* default flex-direction: row */
+}
+
+#flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+#flex-wrap {
+  display: flex;
+  width: 240px;
+  flex-wrap: wrap;
+  /* flex-wrap: wrap-reverse; */
+}
+
+#flex-centering {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+#flex-space {
+  display: flex;
+  justify-content: space-around;
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+}
+
+#overflow-visible {
+  height: 200px;
+  overflow: visible;
+}
+
+#overflow-hidden {
+  height: 200px;
+  overflow: hidden;
+}
+
+#overflow-scroll {
+  height: 200px;
+  overflow: scroll;
+}
+
+#overflow-demo .bordered {
+  padding: 1.5rem;
+  width: 800px;
+}
